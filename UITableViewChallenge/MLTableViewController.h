@@ -1,5 +1,5 @@
 //
-//  MLViewController.h
+//  MLTableViewController.h
 //  UITableViewChallenge
 //
 //  Created by Michael Leow on 6/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MLViewController : UIViewController
+@interface MLTableViewController : UITableViewController
 
 @end

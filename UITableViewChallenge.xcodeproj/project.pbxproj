@@ -14,13 +14,13 @@
 		2710B0DD18F0F2170037E664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2710B0DC18F0F2170037E664 /* main.m */; };
 		2710B0E118F0F2170037E664 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2710B0E018F0F2170037E664 /* MLAppDelegate.m */; };
 		2710B0E418F0F2170037E664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2710B0E218F0F2170037E664 /* Main.storyboard */; };
-		2710B0E718F0F2170037E664 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2710B0E618F0F2170037E664 /* MLViewController.m */; };
 		2710B0E918F0F2170037E664 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2710B0E818F0F2170037E664 /* Images.xcassets */; };
 		2710B0F018F0F2170037E664 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2710B0EF18F0F2170037E664 /* XCTest.framework */; };
 		2710B0F118F0F2170037E664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2710B0D018F0F2170037E664 /* Foundation.framework */; };
 		2710B0F218F0F2170037E664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2710B0D418F0F2170037E664 /* UIKit.framework */; };
 		2710B0FA18F0F2170037E664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2710B0F818F0F2170037E664 /* InfoPlist.strings */; };
 		2710B0FC18F0F2170037E664 /* UITableViewChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2710B0FB18F0F2170037E664 /* UITableViewChallengeTests.m */; };
+		2710B10718F0F5660037E664 /* MLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2710B10618F0F5660037E664 /* MLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		2710B0DF18F0F2170037E664 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
 		2710B0E018F0F2170037E664 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
 		2710B0E318F0F2170037E664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2710B0E518F0F2170037E664 /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
-		2710B0E618F0F2170037E664 /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
 		2710B0E818F0F2170037E664 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2710B0EE18F0F2170037E664 /* UITableViewChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2710B0EF18F0F2170037E664 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2710B0F718F0F2170037E664 /* UITableViewChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		2710B0F918F0F2170037E664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2710B0FB18F0F2170037E664 /* UITableViewChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewChallengeTests.m; sourceTree = "<group>"; };
+		2710B10518F0F5660037E664 /* MLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTableViewController.h; sourceTree = "<group>"; };
+		2710B10618F0F5660037E664 /* MLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				2710B0DF18F0F2170037E664 /* MLAppDelegate.h */,
 				2710B0E018F0F2170037E664 /* MLAppDelegate.m */,
 				2710B0E218F0F2170037E664 /* Main.storyboard */,
-				2710B0E518F0F2170037E664 /* MLViewController.h */,
-				2710B0E618F0F2170037E664 /* MLViewController.m */,
+				2710B10518F0F5660037E664 /* MLTableViewController.h */,
+				2710B10618F0F5660037E664 /* MLTableViewController.m */,
 				2710B0E818F0F2170037E664 /* Images.xcassets */,
 				2710B0D718F0F2170037E664 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2710B0DD18F0F2170037E664 /* main.m in Sources */,
-				2710B0E718F0F2170037E664 /* MLViewController.m in Sources */,
+				2710B10718F0F5660037E664 /* MLTableViewController.m in Sources */,
 				2710B0E118F0F2170037E664 /* MLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
